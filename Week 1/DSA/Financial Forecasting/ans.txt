@@ -1,0 +1,20 @@
+o	Explain the concept of recursion and how it can simplify certain problems.
+
+Recursion is a technique in programming where a function calls itself to solve smaller instances of the same problem. A recursive function typically has two main components:
+
+Base Case: A condition under which the recursion ends, preventing infinite loops.
+Recursive Case: The part where the function calls itself with a smaller or simpler input.
+Recursion can simplify complex problems by breaking them down into smaller, more manageable sub-problems. It is particularly useful for problems that can be naturally divided into similar sub-problems, such as tree traversal, factorial computation, and the Fibonacci sequence.
+
+
+
+o	Discuss the time complexity of your recursive algorithm.
+
+The time complexity of the recursive algorithm is O(n), where n is the number of periods. This is because the algorithm needs to make n recursive calls to calculate the future value.
+
+
+
+o	Explain how to optimize the recursive solution to avoid excessive computation.
+
+To optimize the recursive solution, you can use dynamic programming techniques, such as memorization or tabulation, to avoid excessive computation.
+Memorization is a technique that involves storing the results of expensive function calls and reusing them when the same inputs occur in the future. In this case, you can store the calculated future values for each year to avoid recalculating them.

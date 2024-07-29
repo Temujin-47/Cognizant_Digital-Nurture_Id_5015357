@@ -1,0 +1,24 @@
+o	Explain how arrays are represented in memory and their advantages.
+
+Arrays are a fundamental data structure that stores elements in contiguous memory locations. Each element in an array can be accessed directly using its index, which makes array operations fast and efficient. The base address of the array (the address of the first element) and the index are used to calculate the address of any element in the array.
+
+Advantages of Arrays:
+Direct Access: Accessing any element by its index is O(1) (constant time), making lookups extremely fast.
+Memory Efficiency: Arrays are efficient in terms of memory usage as they store elements in contiguous memory locations.
+
+
+o	Analyze the time complexity of each operation (add, search, traverse, delete).
+
+Add: O(1) for an array of fixed size, but time complexity might be O(n) if the array needs to be resized.
+Search: O(n) for linear search.
+Traverse: O(n) for displaying all employees.
+Delete: O(n) for linear search and shifting elements.
+
+
+o	Discuss the limitations of arrays and when to use them.
+
+Fixed Size: Arrays have a fixed size, so the capacity must be known in advance. This can lead to memory waste or insufficient space if the array size is underestimated.
+
+Insertion and Deletion Overhead: Insertions and deletions can be costly because they may require shifting elements to maintain the order.
+
+Inefficient Searching: Searching in unsorted arrays is linear in time complexity (O(n)), making it inefficient for large datasets.

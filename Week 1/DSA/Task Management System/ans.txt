@@ -1,0 +1,23 @@
+o	Explain the different types of linked lists (Singly Linked List, Doubly Linked List).
+
+Linked lists are linear data structures with nodes that store data along with a reference to the next node (or previous node in the case of a doubly linked list). There are two main types of linked lists:
+Singly Linked List: Each node contains a value and a reference to the next node. The last node has a null reference.
+Doubly Linked List: Each node contains a value and two references: one to the next node and one to the previous node.
+
+
+o	Analyze the time complexity of each operation.
+
+Add: O(1)
+Search: O(n), where n is the number of tasks in the list.
+Traverse: O(n), where n is the number of tasks in the list.
+Delete: O(n), where n is the number of tasks in the list.
+
+
+
+o	Discuss the advantages of linked lists over arrays for dynamic data.
+
+Dynamic Size: Linked lists do not require a fixed size and can grow or shrink dynamically. This makes them ideal for scenarios where the number of elements is not known in advance or fluctuates frequently.
+
+Efficient Insertions/Deletions: Inserting or deleting elements in a linked list is more efficient than in arrays, especially when the operations are not at the end. Linked lists do not require shifting elements, which can be costly in arrays.
+
+Memory Allocation: Linked lists allocate memory as needed, which can be more efficient in terms of memory usage compared to arrays that may over-allocate to accommodate potential growth.
